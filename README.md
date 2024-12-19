@@ -8,13 +8,23 @@ This is Blog project created with Django
 
 ## Getting Started
 
-First setting environment variables. Then, run docker compose
+1- First setting environment variables. Then, run docker compose
 
 ```bash
 docker compose up -d
 ```
 
- Install all requirements projects and start the server.
+2- Create a virtual environment and activate it
+
+```bash
+python -m venv venv
+```
+
+```bash
+source venv/bin/activate
+```
+
+3- Install all requirements projects and start the server.
 
 ```bash
 pip install -r requirements.txt
@@ -23,5 +33,5 @@ pip install -r requirements.txt
 ```bash
 python manage.py runserver
 ```
-Open [http://127.0.0.1:8000/](http://127.0.0.1:8000/) with your browser to see the result.
+4- Open [http://127.0.0.1:8000/](http://127.0.0.1:8000/) with your browser to see the result.
 To access admin page, go to [http://127.0.0.1:8000/adminpage](http://127.0.0.1:8000/adminpage)
