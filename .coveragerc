@@ -1,0 +1,18 @@
+[run]
+branch = True
+
+[report]
+# Use 'omit' para excluir arquivos ou padrões de arquivos
+omit =
+    setup.py
+    */__init__.py
+    manage.py
+    static/*
+    media/*
+    blog/migrations/*
+    blog/apps.py
+    blog/urls.py
+    blog/tests/*
+    custom_panel_admin/*
+    project/*
+    site_setup/*

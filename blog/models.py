@@ -3,7 +3,7 @@ from typing import Any
 from django.contrib.auth.models import User
 from django.db import models
 from django.urls import reverse
-from django_summernote.models import AbstractAttachment
+from django_summernote.models import AbstractAttachment  # type: ignore
 
 from utils.images import resize_image
 from utils.rands import slugify_new
